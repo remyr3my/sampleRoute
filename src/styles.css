@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+input {
+  margin: 1rem;
+  width: 20rem;
+  padding: 1rem 0.5rem;
+}
+
+.downshift-dropdown {
+  margin: 0 auto;
+  width: 20rem;
+  border: 1px solid whitesmoke;
+  border-bottom: none;
+  width: 100%;
+}
+
+.dropdown-item {
+  padding: 0.5rem;
+  cursor: pointer;
+  border-bottom: 1px solid whitesmoke;
+  font-size: 1rem;
+  text-align: left;
+  width: 100%;
+}
+
+.dropdown-button {
+  padding: 0.6rem;
+  border-radius: 3px;
+  background: white;
+  cursor: pointer;
+}
+
+.popper-div {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.popper-item {
+  padding: 0.5rem;
+  border-bottom: 1px solid whitesmoke;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.asf {
+  font-size: 0;
+}
+.asf > div {
+  font-size: 16px;
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  text-align: center;
+}
+.txts {
+  text-align: center;
+}
+.asd {
+  box-sizing: border-box;
+  padding: 20px;
+  border: 1px solid #000;
+}
+.button1 {
+  display: flex;
+  padding: 20px;
+
+  align-items: center;
+  justify-content: center;
+  background-color: green;
+  /* width: 150px;
+  text-align: center; */
+}
+
+.asdf {
+  display: none;
+}
+
+.bu {
+  width: 300px;
+  text-align: center;
+  margin: 0 auto;
+}

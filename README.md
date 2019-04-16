@@ -1,2 +1,0 @@
-# sampleRoute
-Created with CodeSandbox
