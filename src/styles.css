@@ -65,6 +65,7 @@ input {
   border-radius: 3px;
   background: white;
   cursor: pointer;
+  width:100%;
 }
 
 .popper-div {
